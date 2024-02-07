@@ -1,0 +1,15 @@
+/* This where we gonna use css variables */
+/* Variables help us define certain properties such as fonts and colors in a single place and just import these variables in multiple places.  */
+/* This makes it easier to edit these values without changing in the entire projects */
+
+:root {
+    /*Colors */
+    --color-text: #fff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+
+    /* fonts */
+    --font-roboto: "Roboto";
+}

@@ -1,0 +1,9 @@
+/* Doing styling for the entire website. There are some styles we want to apply to every element in our web page we use the " * " for that */
+* {
+  /* boxing sizing of every element should be called a box. This basically means every element a border is considered when calculating width and hieght of the object */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*For the font family we want to use outfit as default if not available use Arial, helvetica or any sans-serif font*/
+  font-family: "outfit", Arial, Helvetica, sans-serif;
+}
